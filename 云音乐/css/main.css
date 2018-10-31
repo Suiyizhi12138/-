@@ -1,0 +1,170 @@
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+li{
+  list-style: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/*header
+*/
+.header {
+  background-color: #df1515;
+}
+.header-left{
+  line-height:40px;
+  text-align: center;
+}
+.header-left a{
+  font-size: 20px;
+  color: #fff;
+}
+
+/**
+*container
+*
+**/
+.container{
+  margin-bottom: 60px;
+}
+.input-search{
+  border: none;
+
+}
+.btn-primary{
+  background: #df1515;
+  border: 1px solid #df1515;
+}
+.search-nav ul li{
+  display: inline-block;
+}
+/*单曲列表*/
+.search-single{
+  padding: 20px;
+  display: block;
+}
+.single-left{
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.single-left:hover{
+  background-color: lightskyblue;
+}
+.single-left h4{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.single-left span{
+  font-size: 12px;
+}
+.single-right{
+  line-height: 59px;
+  text-align: center;
+}
+.single-right .glyphicon{
+  font-size: 20px;
+  cursor: pointer;
+}
+.single-right .glyphicon:nth-of-type(1){
+  padding-right: 3px;
+}
+.glyphicon-play{
+  border: 1px solid #fff;
+}
+/*视频列表*/
+.search-video-list{
+  margin: 10px 0; 
+  display: none;
+}
+.search-video-list .col-sm-4 img{
+  width: 320px;
+  height: 180px;
+ 
+}
+.search-video-list .col-xs-12 img{
+  width: 320px;
+  height: 180px;
+}
+
+.search-list-img .view-time{
+  position: absolute;
+  top: 10px;
+  right: 15%;
+  color: #fff;
+}
+.search-lis-info{
+  margin-bottom: 10px;
+}
+.search-list-info h4{
+  font-size: 14px;
+}
+.search-list-info {
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/**
+  video
+
+**/
+.video-modal{
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  
+}
+.cover{
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%px;
+  height: 600px;
+  background-color: rgba(0,0,0,1);
+  z-index: 2;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.video-close{
+
+  position: absolute;
+  color: #fff;
+  top: 10px;
+  right: 18px;
+  cursor: pointer;
+}
+/****
+
+页脚
+****/
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: #df1515;
+  position: fixed;
+  bottom: 0;
+}
+.footer-player{
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  background: #ccc;
+  display: none;
+}
+.footer-player .audio-close{
+  position: absolute;
+  top: 0px;
+  right: 0;
+ font-size: 25px;
+ cursor: pointer;
+ vertical-align: middle;
+}
